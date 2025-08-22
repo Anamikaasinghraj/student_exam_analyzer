@@ -25,11 +25,6 @@ Compared scores gender-wise.
 Created colorful visualizations (using Matplotlib & Seaborn palettes).
 Highlighted differences and patterns in exam results.
 
-📷 Sample Visualization gender_avg = df.groupby("gender")[["math score","reading score","writing score","average_score"]].mean()
-gender_avg.plot(kind="bar", figsize=(8,5), colormap="viridis")
-plt.title("Average Scores by Gender")
-plt.ylabel("Average Score")
-plt.show()
 
 🚀 Learning Outcomes
 Hands-on experience in data wrangling
